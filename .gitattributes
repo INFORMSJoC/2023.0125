@@ -1,0 +1,17 @@
+data/original/* filter=lfs diff=lfs merge=lfs -text
+data/preprocessed/* filter=lfs diff=lfs merge=lfs -text
+results/heuristic/*/*.yaml filter=lfs diff=lfs merge=lfs -text
+results/ws/*.zip filter=lfs diff=lfs merge=lfs -text
+results/eev/*.zip filter=lfs diff=lfs merge=lfs -text
+results/ev/*.zip filter=lfs diff=lfs merge=lfs -text
+results/mmv/*.zip filter=lfs diff=lfs merge=lfs -text
+results/mv/*.zip filter=lfs diff=lfs merge=lfs -text
+results/sp/*.zip filter=lfs diff=lfs merge=lfs -text
+results/ro/*.zip filter=lfs diff=lfs merge=lfs -text
+results/spsol-romod/*.zip filter=lfs diff=lfs merge=lfs -text
+results/rosol-spmod/*.zip filter=lfs diff=lfs merge=lfs -text
+results/consolidated/*.csv filter=lfs diff=lfs merge=lfs -text
+results/acpf/*/*.zip filter=lfs diff=lfs merge=lfs -text
+results/acpf/results/*.json filter=lfs diff=lfs merge=lfs -text
+results/figures/*.eps filter=lfs diff=lfs merge=lfs -text
+results/figures/*.jpg filter=lfs diff=lfs merge=lfs -text
